@@ -1,8 +1,8 @@
 
 import streamlit as st
 import templates
-from streamlit_lottie import st_lottie
-from streamlit_lottie import st_lottie_spinner
+# from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie_spinner
 
 import requests
 
@@ -25,7 +25,7 @@ def app():
 # lottie_download = load_lottieurl(lottie_url_download)
 
 
-    st_lottie(lottie_hello, key="hello")
+    # st_lottie(lottie_hello, key="hello")
     
     st.sidebar.markdown("# Notes for Applicants 🎉")
     st.sidebar.markdown(" Equal tech is a gender neutral recruitment app that helps you secure a job without bias.")
