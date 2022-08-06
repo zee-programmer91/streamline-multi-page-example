@@ -5,8 +5,8 @@ import time
 import requests
 import templates
 # import streamlit_authenticator as stauth
-from streamlit_lottie import st_lottie
-from streamlit_lottie import st_lottie_spinner
+# from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie_spinner
 
 
 def load_lottieurl(url: str):
@@ -25,7 +25,7 @@ def app():
 # lottie_download = load_lottieurl(lottie_url_download)
 
 
-    st_lottie(lottie_hello, key="hello")
+    # st_lottie(lottie_hello, key="hello")
 
     selected = st.text_input("", "Search...")
 
