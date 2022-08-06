@@ -29,4 +29,4 @@ def authenticate(username, password):
          "Sorry. Incorrect password. Please make sure you entered the right password")
    else:
       stream.write(
-         "Sorry. Username not in system. Please make sure you entered the right username")
+         "Sorry. Username not in system. Please make sure you entered the right username"

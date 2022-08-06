@@ -1,8 +1,6 @@
 
 import streamlit as st
 import templates
-# from streamlit_lottie import st_lottie
-# from streamlit_lottie import st_lottie_spinner
 
 import requests
 
